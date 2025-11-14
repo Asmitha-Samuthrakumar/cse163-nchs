@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 100
+ignore = W291,W292,W391,W504,E121,E402
+# Exclude common folders
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    .devcontainer,
+    .vscode
